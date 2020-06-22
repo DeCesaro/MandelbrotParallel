@@ -19,5 +19,5 @@ echo
 echo JOB_ID:
 echo 'echo $PBS_JOBID'
 echo #################
-mpirun -np 32 ./atividade
+mpirun -np 64 ./atividade
 echo Final Time is 'date'
