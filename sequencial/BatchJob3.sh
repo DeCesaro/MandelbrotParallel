@@ -19,8 +19,8 @@ echo
 echo JOB_ID:
 echo 'echo $PBS_JOBID'
 echo #################
-echo "-----------NPOINTS-1500------------"
+echo "-----------NPOINTS-2500------------"
 mpirun -np 1 ./atividade2500
-echo "-----------NPOINTS-2000------------"
+echo "-----------NPOINTS-3000------------"
 mpirun -np 1 ./atividade3000
 echo Final Time is 'date'
