@@ -1,0 +1,86 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host hostname
+
+Initial Time is date
+
+Directory is pwd
+
+This jobs runs of the following nodes:
+cat $PBS_NODEFILE | uniq
+
+JOB_ID:
+echo $PBS_JOBID
+
+-----------NPOINTS-500------------
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.08860898 seconds
+-----------NPOINTS-1000------------
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.27828598 seconds
+-----------NPOINTS-1500------------
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.63159895 seconds
+-----------NPOINTS-2000------------
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   0.98265696 seconds
+-----------NPOINTS-2500------------
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   1.33264399 seconds
+-----------NPOINTS-3000------------
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   1.90989208 seconds
+-----------NPOINTS-3500------------
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   2.54073191 seconds
+-----------NPOINTS-4000------------
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   3.30972600 seconds
+-----------NPOINTS-4500------------
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   4.21728206 seconds
+-----------NPOINTS-5000------------
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   5.08506894 seconds
+-----------------------------------
+Final Time is date
+Final Time is date
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12713 on the batch nodes
+Doing node grad03
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad04
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad05
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:03:37 
+
+ -- MEMORY       = 71948kb 
+
+ -- VIRTUAL MEM  = 2483832kb 
+
+ -- ELAPSED TIME = 00:00:34 
+
