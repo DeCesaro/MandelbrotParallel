@@ -19,5 +19,25 @@ echo
 echo JOB_ID:
 echo 'echo $PBS_JOBID'
 echo #################
-mpirun -np 32 ./atividade
+echo "-----------NPOINTS-500------------"
+mpirun -np 32 ./atividade500
+echo "-----------NPOINTS-1000------------"
+mpirun -np 32 ./atividade1000
+echo "-----------NPOINTS-1500------------"
+mpirun -np 32 ./atividade1500
+echo "-----------NPOINTS-2000------------"
+mpirun -np 32 ./atividade2000
+echo "-----------NPOINTS-2500------------"
+mpirun -np 32 ./atividade2500
+echo "-----------NPOINTS-3000------------"
+mpirun -np 32 ./atividade3000
+echo "-----------NPOINTS-3500------------"
+mpirun -np 32 ./atividade3500
+echo "-----------NPOINTS-4000------------"
+mpirun -np 32 ./atividade4000
+echo "-----------NPOINTS-4500------------"
+mpirun -np 32 ./atividade4500
+echo "-----------NPOINTS-5000------------"
+mpirun -np 32 ./atividade5000
+echo "-----------------------------------"
 echo Final Time is 'date'
