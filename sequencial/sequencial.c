@@ -3,7 +3,7 @@
 #include <math.h>
 #include <mpi.h> 
 
-# define NPOINTS 2000
+# define NPOINTS 5000
 # define MAXITER 2000
 
 
