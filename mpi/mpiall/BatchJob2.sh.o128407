@@ -1,0 +1,555 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host hostname
+
+Initial Time is date
+
+Directory is pwd
+
+This jobs runs of the following nodes:
+cat $PBS_NODEFILE | uniq
+
+JOB_ID:
+echo $PBS_JOBID
+
+-----------NPOINTS-500-2----------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1000-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1500-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2000-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2500-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3000-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3500-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4000-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4500-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-5000-2--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade5000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-------------------------------------------------
+-----------NPOINTS-500-4----------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1000-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1500-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2000-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2500-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3000-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3500-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4000-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4500-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-5000-4--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade5000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-------------------------------------------------
+-----------NPOINTS-500-8----------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1000-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1500-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2000-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2500-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3000-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3500-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4000-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4500-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-5000-8--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade5000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-------------------------------------------------
+-----------NPOINTS-500-16--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1000-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1500-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2000-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2500-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3000-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3500-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4000-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4500-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-5000-16------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade5000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-------------------------------------------------
+-----------NPOINTS-500-32--------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1000-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-1500-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade1500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2000-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-2500-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade2500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3000-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-3500-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade3500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4000-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-4500-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade4500
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-----------NPOINTS-5000-32------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./atividade5000
+Node: grad01
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+-------------------------------------------------
+Final Time is date
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12704 on the batch nodes
+Doing node grad01
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:00:00 
+
+ -- MEMORY       = 6580kb 
+
+ -- VIRTUAL MEM  = 102896kb 
+
+ -- ELAPSED TIME = 00:00:07 
+
