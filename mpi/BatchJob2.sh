@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -m abe
 #PBS -V
-#PBS -l nodes=2:ppn=16:cluster-Grad,walltime=00:30:00
+#PBS -l nodes=2:ppn=16:cluster-Grad,walltime=02:30:00
 #PBS -M bernardo.cesaro@acad.pucrs.br
 #PBS -r n
 #PBS -j oe
@@ -19,6 +19,27 @@ echo
 echo JOB_ID:
 echo 'echo $PBS_JOBID'
 echo #################
+echo "-----------NPOINTS-500-2----------------"
+mpirun -np 2 ./atividade500
+echo "-----------NPOINTS-1000-2--------------"
+mpirun -np 2 ./atividade1000
+echo "-----------NPOINTS-1500-2--------------"
+mpirun -np 2 ./atividade1500
+echo "-----------NPOINTS-2000-2--------------"
+mpirun -np 2 ./atividade2000
+echo "-----------NPOINTS-2500-2--------------"
+mpirun -np 2 ./atividade2500
+echo "-----------NPOINTS-3000-2--------------"
+mpirun -np 2 ./atividade3000
+echo "-----------NPOINTS-3500-2--------------"
+mpirun -np 2 ./atividade3500
+echo "-----------NPOINTS-4000-2--------------"
+mpirun -np 2 ./atividade4000
+echo "-----------NPOINTS-4500-2--------------"
+mpirun -np 2 ./atividade4500
+echo "-----------NPOINTS-5000-2--------------"
+mpirun -np 2 ./atividade5000
+echo "-------------------------------------------------"
 echo "-----------NPOINTS-500-4----------------"
 mpirun -np 4 ./atividade500
 echo "-----------NPOINTS-1000-4--------------"
