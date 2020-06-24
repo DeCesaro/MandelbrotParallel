@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -m abe
 #PBS -V
-#PBS -l nodes=4:ppn=16:cluster-Grad,walltime=02:00:00
+#PBS -l nodes=4:ppn=16:cluster-Grad,walltime=01:00:00
 #PBS -M guilherme.deconto@acad.pucrs.br
 #PBS -r n
 #PBS -j oe
