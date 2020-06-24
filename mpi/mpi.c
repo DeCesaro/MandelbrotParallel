@@ -1,11 +1,10 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <mpi.h>
 
 #define MAXITER 2000
-#define NPOINTS 5000
+#define NPOINTS 500
 
 struct complex
 {

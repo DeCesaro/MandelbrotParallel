@@ -2,7 +2,7 @@
 #PBS -m abe
 #PBS -V
 #PBS -l nodes=2:ppn=16:cluster-Grad,walltime=02:30:00
-#PBS -M bernardo.cesaro@acad.pucrs.br
+#PBS -M guilherme.deconto@acad.pucrs.br
 #PBS -r n
 #PBS -j oe
 #PBS -d /home/pp12704/MandelbrotParallel/mpi/mpiall
